@@ -1104,9 +1104,18 @@
             }
         </style>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-        <!-- utmfy -->
-        <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" async defer></script>
-        <!-- utmfy -->
+        <!-- redi-->
+       <script>
+// Função para detectar o tipo de dispositivo
+function isMobileDevice() {
+return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+}
+// Redirecionamento
+if (!isMobileDevice()) {
+window.location.href = "https://gemaacademy.online/obggsemcodigo/";
+}
+</script>
+       <!-- redi-->
     </head>
 
     <body class="page-template page-template-elementor_canvas page page-id-50 wp-embed-responsive elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-50">
