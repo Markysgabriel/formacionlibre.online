@@ -893,15 +893,16 @@ window.location.href = "https://gemaacademy.online/up1-maquillaje/";
   </div>
 
  <div class="centralizado">
-    <!-- Botão verde -->
-    <a href="https://www.checkout-ds24.com/answer/yes" target="_blank">
-      <button class="botao-verde">QUIERO PIEZAS ADICIONALES</button>
-    </a>
+   <!-- HOTMART - Sales Funnel Widget -->
+<!--- sales funnel container --->
+<div id="hotmart-sales-funnel"></div>
 
-    <!-- Botão cinza -->
-    <div>
-      <a href="https://www.checkout-ds24.com/answer/no" class="botao-cinza" target="_blank">n</a>
-    </div>
+<!--- script load and setup --->
+<script src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"></script>
+<script>
+checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel')
+</script>
+<!-- HOTMART - Sales Funnel Widget -->
 
                 </style>
                 <div class="atomicat-container atomicat-inner-container">
