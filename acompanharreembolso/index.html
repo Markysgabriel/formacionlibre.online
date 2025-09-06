@@ -94,7 +94,7 @@
                                     margin-bottom: 20px;
                                 }
                                 .message {
-                                    background-color: #2867b8;
+                                    background-color: #f04e23;
                                     border-radius: 6px;
                                     padding: 15px;
                                     margin-bottom: 20px;
@@ -140,7 +140,7 @@
 
             const progress = (daysPassed / 30) * 100;
             const statusUpdates = [
-                "Equipo de Digistore24",
+                "Equipo de Hotmart",
                 "En análisis inicial",
                 "Documentos verificados",
                 "Esperando aprobación",
@@ -156,12 +156,12 @@
 
             return (
                 <div className="container">
-                    <h2>Guarde esta URL de forma segura para seguir el estado de su solicitud</h2>
+                    <h2>Detalle del estado actual de su solicitud</h2>
                     <p>Status: {statusUpdates[statusIndex]}</p>
                     <div className="progress-bar">
                         <div className="progress" style={{ width: `${progress}%` }}></div>
                     </div>
-                    <p>{daysPassed} de 30 días para recibir su dinero directamente en su cuenta bancaria</p>
+                    <p>{daysPassed} de 30 días para recibir su dinero</p>
                 </div>
             );
         }
@@ -194,7 +194,7 @@
         }
     </style>
     <div class="header">
-        <img src="https://www.digistore24.com/pb/webinc/d5b7b8ef/images/brand/digistore/logo/logo_wide_monotone.svg" alt="Digistore Logo">
+        <img src="https://formacionlibre.online/hotmart-logo.75e3bdc0.svg" alt="Hotmart Logo">
         <span></span>
     </div>
     <!-- Hotmart Logo-->
